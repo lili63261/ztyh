@@ -1,0 +1,610 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/tabBar/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/zhitianMall",
+			"style": {
+				"navigationBarTitleText": "智天商城",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/equity",
+			"style": {
+				"navigationBarTitleText": "智天股权",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/equityApplication",
+			"style": {
+				"navigationBarTitleText": "股权申请"
+			}
+		},
+		{
+			"path": "pages/authentication/wxAuth",
+			"style": {
+				"navigationBarTitleText": "微信认证"
+			}
+		},
+		{
+			"path": "pages/authentication/zfbAuth",
+			"style": {
+				"navigationBarTitleText": "支付宝认证"
+			}
+		},
+		{
+			"path": "pages/tabBar/bankCard",
+			"style": {
+				"navigationBarTitleText": "智天银行卡"
+			}
+		},
+		{
+			"path": "pages/tabBar/creditCardRepayment",
+			"style": {
+				"navigationBarTitleText": "信用卡还款"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录页面"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册页面"
+			}
+		},
+		{
+			"path": "pages/tabBar/transactionMonetization",
+			"style": {
+				"navigationBarTitleText": "交易变现"
+			}
+		},
+		{
+			"path": "pages/tabBar/zhitianBond",
+			"style": {
+				"navigationBarTitleText": "智天债券",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/tabBar/active-page",
+			"style": {
+				"navigationBarTitleText": "智天集团"
+			}
+		},
+		{
+			"path": "pages/tabBar/exchangeCenter",
+			"style": {
+				"navigationBarTitleText": "兑换中心"
+			}
+		},
+		{
+			"path": "pages/myMallAndGift/index",
+			"style": {
+				"navigationBarTitleText": "我的商场礼品"
+			}
+		},
+		{
+			"path": "pages/myMallAndGift/driverSLicense",
+			"style": {
+				"navigationBarTitleText": "行驶证"
+			}
+		},
+		{
+			"path": "pages/tabBar/myEquityAsset",
+			"style": {
+				"navigationBarTitleText": "我的币种资产"
+			}
+		},
+		{
+			"path": "pages/bondWallet/index",
+			"style": {
+				"navigationBarTitleText": "我的债券钱包"
+			}
+		},
+		{
+			"path": "pages/tabBar/increase",
+			"style": {
+				"navigationBarTitleText": "智天货币"
+			}
+		},
+		{
+			"path": "pages/invite-friends/index",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/tabBar/zhitianBookDetails",
+			"style": {
+				"navigationBarTitleText": "支票账户"
+			}
+		},
+		{
+			"path": "pages/user/authenticate",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/common/online",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/orderPayment/index",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		},
+		{
+			"path": "pages/actImmediately/index",
+			"style": {
+				"navigationBarTitleText": "立即激活"
+			}
+		},
+		{
+			"path": "pages/card-status/index",
+			"style": {
+				"navigationBarTitleText": "智天制卡进度"
+			}
+		},
+		{
+			"path": "pages/card-status/pay",
+			"style": {
+				"navigationBarTitleText": "邮寄支付"
+			}
+		},
+		{
+			"path" : "pages/user/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收货地址"
+			}
+		},
+		{
+			"path": "pages/tabBar/creditPensionWithdrawal",
+			"style": {
+				"navigationBarTitleText": "信用养老金提现"
+			}
+		},
+		{
+			"path": "pages/tabBar/increase-Details",
+			"style": {
+				"navigationBarTitleText": "货币明细"
+			}
+		},
+		{
+			"path" : "pages/user/team/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的团队"
+			}
+		},
+		// {
+		// 	"path" : "pages/user/team/poster",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "邀请好友",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		{
+			"path": "pages/tabBar/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}
+		// {
+		// 	"path": "pages/home",
+		// 	"style": {
+		// 		"navigationBarTitleText": "首页",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/register",
+		// 	"style": {
+		// 		"navigationBarTitleText": "注册",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/protocol",
+		// 	"style": {
+		// 		"navigationBarTitleText": "用户协议",
+		// 		"navigationBarTextStyle": "black",
+		// 		"navigationBarBackgroundColor": "#ffffff"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/chat",
+		// 	"style": {
+		// 		"navigationBarTitleText": "官方群聊",
+		// 		"navigationBarTextStyle": "black",
+		// 		"navigationBarBackgroundColor": "#ffffff"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/news/show",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "新闻详情",
+		// 		"enablePullDownRefresh" : false
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/common/defray",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "收银台",
+		// 		"enablePullDownRefresh" : false,
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/user/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "用户中心",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/user/password",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "修改密码",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/apply/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "申报参会",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/apply/form",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "报名参会",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/fund/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "壹号国债",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "壹号生活",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/form",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "申请安置房",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		//     "path" : "pages/house/house",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "房屋申报",
+		// 		"navigationStyle": "custom",
+		//         "enablePullDownRefresh": false
+		//     }
+		// },
+		// {
+		// 	"path" : "pages/riches/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "壹号财富",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/user/team/poster",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "邀请好友",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+
+		// {
+		// 	"path" : "pages/user/take",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "提现",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/user/log",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "明细",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/fund/list",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的国债",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/riches/list",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的壹号财富",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/list",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的房产",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/cars",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的汽车",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/fund/graph",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的五行币",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/riches/coupons",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的代金券",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/apply/vote",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "我的入场券"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/riches/couponstake",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "代金券提现",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/riches/couponslog",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "代金券提现明细",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/take",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "共富国债提现",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/life/letter",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "入住通知书"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/card/index",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "建档立卡",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path" : "pages/card/info",
+		// 	"style" : 
+		// 	{
+		// 		"navigationBarTitleText" : "建档立卡",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }
+		// ,{
+		//     "path" : "pages/card/deposit",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "提现补助金",
+		//         "enablePullDownRefresh": false
+		//     }
+		// }
+		// ,{
+		//     "path" : "pages/house/list",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "我的申报",
+		// 		"navigationStyle": "custom"
+		//     }
+		// }
+		// ,{
+		//     "path" : "pages/house/process",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "申报进度",
+		//         "enablePullDownRefresh": false
+		//     }
+		// }
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#FF0022",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/home",
+				"text": "首页",
+				"iconPath": "static/tabBar/1.png",
+				"selectedIconPath": "static/tabBar/11.png"
+			},
+			{
+				"pagePath": "pages/tabBar/zhitianMall",
+				"text": "智天商城",
+				"iconPath": "static/tabBar/2.png",
+				"selectedIconPath": "static/tabBar/22.png"
+			},
+			{
+				"pagePath": "pages/tabBar/zhitianBond",
+				"text": "智天债券",
+				"iconPath": "static/tabBar/6.png",
+				"selectedIconPath": "static/tabBar/66.png"
+			},
+			{
+				"pagePath": "pages/tabBar/equity",
+				"text": "智天股权",
+				"iconPath": "static/tabBar/3.png",
+				"selectedIconPath": "static/tabBar/33.png"
+			},
+			{
+				"pagePath": "pages/tabBar/increase",
+				"text": "智天货币",
+				"iconPath": "static/tabBar/7.png",
+				"selectedIconPath": "static/tabBar/77.png"
+			},
+			// {
+			// 	"pagePath": "pages/tabBar/personalCenter",
+			// 	"text": "个人中心",
+			// 	"iconPath": "static/tabBar/4.png",
+			// 	"selectedIconPath": "static/tabBar/44.png"
+			// },
+			{
+				"pagePath": "pages/tabBar/mine",
+				"text": "我的",
+				"iconPath": "static/tabBar/5.png",
+				"selectedIconPath": "static/tabBar/55.png"
+			}
+			// {
+			// 	"pagePath": "pages/home",
+			// 	"text": "首页",
+			// 	"iconPath": "static/images/common/home.png",
+			// 	"selectedIconPath": "static/images/common/homed.png"
+			// },
+			// {
+			// 	"pagePath": "pages/card/index",
+			// 	"text": "建档立卡",
+			// 	"iconPath": "static/images/common/m-kapian.png",
+			// 	"selectedIconPath": "static/images/common/m-kapiand.png"
+			// },
+			// {
+			// 	"pagePath": "pages/house/house",
+			// 	"text": "房屋申报",
+			// 	"iconPath": "static/images/common/apply.png",
+			// 	"selectedIconPath": "static/images/common/applyd.png"
+			// },
+			// {
+			// 	"pagePath": "pages/apply/form",
+			// 	"text": "申报参会",
+			// 	"iconPath": "static/images/common/apply.png",
+			// 	"selectedIconPath": "static/images/common/applyd.png"
+			// },
+			// {
+			// 	"pagePath": "pages/fund/index",
+			// 	"text": "壹号国债",
+			// 	"iconPath": "static/images/common/fund.png",
+			// 	"selectedIconPath": "static/images/common/fundd.png"
+			// },
+			// {
+			// 	"pagePath": "pages/life/index",
+			// 	"text": "国房安置",
+			// 	"iconPath": "static/images/common/life.png",
+			// 	"selectedIconPath": "static/images/common/lifed.png"
+			// },
+			// {
+			// 	"pagePath": "pages/riches/index",
+			// 	"text": "壹号财富",
+			// 	"iconPath": "static/images/common/caifu.png",
+			// 	"selectedIconPath": "static/images/common/caifud.png"
+			// },
+			// {
+			// 	"pagePath": "pages/user/team/poster",
+			// 	"text": "邀请好友",
+			// 	"iconPath": "static/images/common/yq.png",
+			// 	"selectedIconPath": "static/images/common/yqd.png"
+			// },
+			// {
+			// 	"pagePath": "pages/user/index",
+			// 	"text": "用户中心",
+			// 	"iconPath": "static/images/common/mine.png",
+			// 	"selectedIconPath": "static/images/common/mined.png"
+			// }
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "智天银行",
+		"navigationBarBackgroundColor": "#FF0022"
+	},
+	"insetLoader": {
+		"config": {
+			"uToast": "<u-toast ref='uToast' />"
+		},
+		"label": [
+			"uToast"
+		],
+		"rootEle": "view"
+	}
+}
